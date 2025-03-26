@@ -1,7 +1,7 @@
 console.log("Task26");
-let year=2024
+let year=1998
 
-if(year%4==0&&year%400==0){
+if((year%4==0 && year%100!==0)||(year%400===0)){
     console.log(year+" is a leap year");
     
 }

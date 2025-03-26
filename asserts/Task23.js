@@ -6,4 +6,4 @@ var pro_price3=60
 var total=pro_price1+pro_price2+pro_price3
 console.log("Actual Total is: "+total);
 
-console.log("Total after discount: ",total>=50 ? total=20%(total) : total);
+console.log("Total after discount: ",total>=50 ? total=total-20%(total) : total);

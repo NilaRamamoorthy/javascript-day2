@@ -12,7 +12,6 @@ if(product=="pencil"&& quantity>=1){
     
 } else {
     b=parseInt(b)
-    console.log(b);
     console.log("Total amount: "+(b+1)*price);
     
 }
